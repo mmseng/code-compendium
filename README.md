@@ -13,7 +13,12 @@ Currently much of my work is stored on version control systems internal to the c
 If you do not already have access to a project linked below and are interested in getting access, please contact me per the above. Some projects are already public, some are not, so try the links first. For projects hosted on gitlab.engr-illinois.edu, you must sign in there at least once, so that your account will be generated and can be granted access.
 
 ## Compendium
-
+<style>
+	.compendium-table {
+		border:3px solid #000;
+	}
+</style>
+<div class='compendium-table'>
 <table>
 	<tr>
 		<th>Name</th>
@@ -331,6 +336,7 @@ If you do not already have access to a project linked below and are interested i
 		<td>No</td>
 	</tr>
 </table>
+</div>
 
 ## Generalized topics which I have at least some experience with, but which don't represent specific code projects
 - Misc gathering, reporting, and manipulation of AD, MECM, LENS, and IPAM data
