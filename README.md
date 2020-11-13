@@ -1,7 +1,7 @@
 # Matt's code compendium
 
 ## Me
-My name is Matt Seng. I've been an IT Pro for higher education since 2007. This is a list of projects I've done, mostly Powershell-based.  
+I've been an IT Pro for higher education since 2007. This is a list of some projects I've done, mostly Powershell-based.  
 
 My Github.com username is mmseng, but the majority of my scripting work is done for the purposes of system administration in my work for Engineering IT Shared Services, in the Grainger College of Engineering at the University of Illinois, where my NetID is mseng3.  
 
