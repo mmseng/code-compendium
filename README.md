@@ -14,9 +14,13 @@ If you do not already have access to a project linked below and are interested i
 
 ## Compendium
 <style>
-	.compendium-table {
-		border:3px solid #000;
-	}
+table:nth-of-type(1) {
+    display:table;
+    width:100%;
+}
+table:nth-of-type(1) th:nth-of-type(2) {
+    width:10%;
+}
 </style>
 <div class='compendium-table'>
 <table>
