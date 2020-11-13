@@ -15,7 +15,7 @@ If you do not already have access to a project linked below and are interested i
 ## Compendium
 
  | Name | Description | Home | Type | Language | Visibility | Reviewed for sensitivity | 
- | ----------- | ---- | ---- | -------- | ---------- | ------------------------ | 
+ | ---- | ----------- | ---- | ---- | -------- | ---------- | ------------------------ | 
  | Recycle-EWSGuestAccounts | Bulk provisioning and decommissioning of guest AD accounts | https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Recycle-EWSGuestAccounts | bulk manipulation, scripting of repetitive processes | Powershell | Private | No | 
  | create-role-based-ad-accounts-and-groups | Creation of role-based AD accounts and groups, i.e. for administrative use, research groups, and RSOs | https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/create-role-based-ad-accounts-and-groups | bulk manipulation, scripting of repetitive processes | Powershell | Private | No | 
  | Create-ICTDocClassAccounts | Bulk creation of guest AD accounts, i.e. for a semesterly community class | https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Create-ICTDocClassAccounts | Bulk manipulation, scripting of repetitive processes | Powershell | Private | No | 
