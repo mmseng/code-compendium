@@ -17,6 +17,8 @@ If you do not already have access to a project linked below and are interested i
 ## Compendium
 The following is a list of the major scripts/modules/projects I've made, roughly organized by their current location and purpose.
 
+---
+
 ### EPM/MECM focus (GitLab group engrit-epm)
 
 #### "Org shared deployment model"
