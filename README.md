@@ -20,15 +20,15 @@ The following is a list of the major scripts/modules/projects I've made, roughly
 ### EPM/MECM focus (GitLab group engrit-epm)
 
 #### "Org shared deployment model"
-Standardization of MECM collections and deployments across the college.  
+Standardization of MECM collections and deployments across the college
 https://gitlab.engr.illinois.edu/engrit-epm/org-shared-deployments
 
 #### Compare-AssignmentRevisions
-Collects MECM client data directly from mass endpoints for analysis to identify issues related to deployment bugs in MECM 
+Collects MECM client data directly from mass endpoints for analysis to identify issues related to deployment bugs in MECM
 https://gitlab.engr.illinois.edu/engrit-epm/compare-assignmentrevisions
 
 #### Get-AppSupersedence
-Analyzes data from MECM to identify mis-configured application packages, which cause deployment issues 
+Analyzes data from MECM to identify mis-configured application packages, which cause deployment issues
 https://gitlab.engr.illinois.edu/engrit-epm/get-appsupersedence
 
 #### Eval-SccmDeviceAssignments
@@ -36,12 +36,16 @@ Forcing MECM client endpoints to re-evaluate assignments
 Credit goes to UIUC Endpoint Services (EPS) team
 https://gitlab.engr.illinois.edu/engrit-epm/eval-sccmdeviceassignments
 
+#### Get-SccmEngrPrefixes
+Retrieve all ENGR computer name prefixes used by MECM to determine which unit's All-Systems collection should receive newly imported computer objects
+https://gitlab.engr.illinois.edu/engrit-epm/get-sccmengrprefixes
+
 #### Export-PrintServerPrinters
 Grabs printer data from our print servers, and dumps it to a CSV format, suitable for consumption by my PrinterStatus webtool (mentioned below).
 https://gitlab.engr.illinois.edu/engrit-epm/export-printserverprinters
 
 #### Report-ProductVersion
-Directly polls endpoints to identify where certain applications are installed, and what the installed version is.
+Directly polls endpoints to identify where certain applications are installed, and what the installed version is
 https://gitlab.engr.illinois.edu/engrit-epm/report-productversion
 
 #### PWResetV2
@@ -52,8 +56,12 @@ Contact for more information.
 Web-based tool (leveraging Jenkins) for automation of importing new computer information to AD, MECM, and IPAM
 https://gitlab.engr.illinois.edu/engrit-epm/helptools-importer
 
-#### 
-MECM task sequence steps for gathering endpoint's LENS data and sending notifications with said data to Slack and MS Teams 
+#### count-ad-objects
+Identify whether a computer already exists in AD for the purposes of using logic in an MECM task sequence
+https://gitlab.engr.illinois.edu/engrit-epm/sccm-ts-scripts/-/blob/master/count-ad-objects.ps1
+
+#### "Gathering endpoint LENS data and posting to chat platforms"
+MECM task sequence steps for gathering endpoint's LENS data and sending notifications with said data to Slack and MS Teams
 https://gitlab.engr.illinois.edu/engrit-epm/sccm-ts-scripts/-/blob/master/get-lens-info.ps1
 https://gitlab.engr.illinois.edu/engrit-epm/sccm-ts-scripts/-/blob/master/post-to-slack.ps1
 https://gitlab.engr.illinois.edu/engrit-epm/sccm-ts-scripts/-/blob/master/post-to-teams.ps1
@@ -62,39 +70,63 @@ https://gitlab.engr.illinois.edu/engrit-epm/sccm-ts-scripts/-/blob/master/post-t
 
 ### System administration/AD focus (GitLab group: oesr, a.k.a. Official EngrIT Script Repo)
 
-#### 
+#### Audit-StaleADComputersInOU
 Auditing of "stale" AD computer accounts, and bulk remediation
 https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Audit-StaleADComputersInOU
 
 #### Covidize-LabOU
-Automation of refactoring AD OUs and GPOs to facilitate segregated remote access for COVID remote work purposes 
+Automation of refactoring AD OUs and GPOs to facilitate segregated remote access for COVID remote work purposes
 https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Covidize-LabOU
 
 #### "Bulk AD account and group provisioning"
-Automation of provisioning and decommissioning mass guest AD accounts, and role-based accounts and groups (for events, classes, research groups, etc.) 
+Automation of provisioning and decommissioning mass guest AD accounts, and role-based accounts and groups (for events, classes, research groups, etc.)
 Recycle-EWSGuestAccounts: https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Recycle-EWSGuestAccounts
 Creating role-based accounts and groups: https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/create-role-based-ad-accounts-and-groups
 Bulk creation of semesterly class accounts: https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Create-ICTDocClassAccounts
 
 #### Validate-Win7ESUCompat
-Auditing readiness of Win7 systems to accept Extended Service Updates (ESUs) 
+Auditing readiness of Win7 systems to accept Extended Service Updates (ESUs)
 https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Validate-Win7ESUCompat
 
 #### "Manipulating computers based on session state"
-Identifying and sending commands to AD endpoints based on status of local and/or remote session activity 
+Identifying and sending commands to AD endpoints based on status of local and/or remote session activity
 https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Get-Sessions
 https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Get-ComputersBySessionState
 https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Logoff-DisconnectedSessions
 
 #### "Misc direct data gathering via WMI/RM"
-Gathering data directly from endpoints such as diskspace, session activity, uptime, make/model, and other data provided by WMI/CIM and Remote Management (RM) frameworks. 
+Gathering data directly from endpoints such as diskspace, session activity, uptime, make/model, and other data provided by WMI/CIM and Remote Management (RM) frameworks
 https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Get-Model
 https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Get-DiskSpace
 https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Get-UptimeHistory
 
+#### Ping-All
+Asynchronously ping multiple computers. Useful for instantaneously checking the availability of all computers in a given lab
+https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Ping-All
+
+#### Ping-OverTime
+Ping a machine continuously, logging when it stops and starts responging. Useful for monitoring up/down status during operations which require reboots
+https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Ping-OverTime
+
 #### "Misc handy snippets"
 Long list of misc syntax, cmdlets, and snippets I've found handy over the years
 https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/misc-handy-powershell-examples
+
+#### Get-CobblerSystems
+Retrieve all Linux system information from Cobbler instance
+https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Get-CobblerSystems
+
+#### Report-AMTStatus
+Gathers AMT state information from endpoints
+https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Report-AMTStatus
+
+#### powershell-profile-example
+Example of useful code for a powershell profile (specifically stuff I use in mine)
+https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/powershell-profile-example
+
+#### msi-app-uninstall
+Uninstall MSI-based apps. Designed primarily to blow away BigFix/IEM client installations on endpoints.
+https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/blob/master/msi-app-uninstall/msi-app-uninstall.ps1
 
 ---
 
@@ -115,13 +147,13 @@ https://helptools.engrit.illinois.edu/tools/printerstatus/
 ---
 
 ### Generalized topics which I have at least some experience with, but which don't represent specific code projects
-- Misc gathering, reporting, and manipulation of MECM data
-- Misc gathering, reporting, and manipulation of AD data
-- Misc gathering, reporting, and manipulation of LENS data
-- Misc gathering, reporting, and manipulation of IPAM data
-- Quick functions for various handy administrative tasks, such as mass asynchronous pinging, recording ping responses over time, polling user's homedirectory for quota and other stats
-- Customization of Powershell profile, with automatic import of various modules, such as those mentioned above 
-- General practice of thorough process logging for scripts for easy troubleshooting and review 
+- Misc gathering, reporting, and manipulation of AD, MECM, LENS, and IPAM data
+- Using custom GUI input prompts and logic at the beginning of an MECM task sequence
+- Kicking off custom scripts after an MECM task sequence has finished and rebooted, to do things that cannot be done during a TS
+- Automation of AMT commands to endpoints via Intel's IntelvPro Powershell module
+- Quick functions for various handy, quick and dirty administrative tasks
+- Customization of Powershell profile, with automatic import of various modules, such as those mentioned above
+- General practice of thorough process logging for scripts for easy troubleshooting and review
 
 ## Notes
 - By mseng3
