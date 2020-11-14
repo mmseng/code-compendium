@@ -5,7 +5,7 @@ I've been an IT pro for higher education since 2007. This is a list of some proj
 
 My Github.com username is mmseng, but the majority of my scripting work is done for the purposes of system administration in my work for Engineering IT Shared Services, in the Grainger College of Engineering at the University of Illinois, where my NetID is mseng3.  
 
-If you wish to contact me about my work, please use the University's Microsoft Teams system to do so. If you can't, then email to my university email will suffice. For now, I will not monitor communications here on GitHub.  
+If you wish to contact me about my work, please use the University's Microsoft Teams system to do so, either directly or through the PowerShell User Group team. If you can't, then my university email will suffice. For now, I will not monitor communications here on GitHub.  
 
 ## Access
 Currently much of my work is stored on version control systems internal to the college, though eventually it will be slowly migrated to the university's GitHub.com organizations and made public (where possible), which is why I've spun up this page/repo, and I'll try to keep it updated with the current locations of my projects.  
