@@ -55,7 +55,7 @@ If you are interested in getting access to a project which is not yet public, pl
 ## Generalized topics which I have at least some experience with, but which don't represent specific code projects
 - Misc gathering, reporting, and manipulation of AD, MECM, LENS, and IPAM data
 - Using custom GUI input prompts and logic at the beginning of an MECM task sequence
-- Kicking off custom scripts after an MECM task sequence has finished and rebooted, to do things that cannot be done during a TS
+- Kicking off custom scripts after an MECM task sequence has finished and rebooted, to do things that cannot be done during a TS (such as running Windows updates)
 - Automation of AMT commands to endpoints via Intel's IntelvPro Powershell module
 - Quick functions for various handy, quick and dirty administrative tasks
 - Customization of Powershell profile, with automatic import of various modules, such as those mentioned above
