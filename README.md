@@ -13,6 +13,7 @@ Currently much of my work is stored on version control systems internal to the c
 If you do not already have access to a project linked below and are interested in getting access, please contact me per the above. Some projects are already public, some are not, so try the links first. For projects hosted on gitlab.engr-illinois.edu, you must sign in there at least once, so that your account will be generated and can be granted access.
 
 ## Compendium
+Here is a list of projects that I felt are worth sharing.
 
  | Name and link | Description | Type | Language | Visibility | Reviewed for sensitivity | 
  | ------------- | ----------- | ---- | -------- | ---------- | ------------------------ | 
