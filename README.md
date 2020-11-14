@@ -3,7 +3,7 @@
 ## Me
 I've been an IT pro for higher education since 2007. This is a list of some projects I've done, mostly Powershell-based, which I felt are worth sharing for other IT pros.  
 
-My Github.com username is mmseng, but the majority of my scripting work is done for the purposes of system administration in my work for Engineering IT Shared Services, in the Grainger College of Engineering at the University of Illinois, where my NetID is mseng3.  
+My Github.com username is mmseng, but the majority of my scripting work is done for the purposes of system administration for Engineering IT Shared Services, in the Grainger College of Engineering at the University of Illinois, where my NetID is mseng3.  
 
 If you wish to contact me about my work, please use the University's Microsoft Teams system to do so, either directly or through the PowerShell User Group team. If you can't, then my university email will suffice. For now, I will not monitor communications here on GitHub.  
 
