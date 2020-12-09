@@ -10,7 +10,7 @@ If you wish to contact me about my work, please use the University's Microsoft T
 ## Access
 Currently much of my work is stored on version control systems internal to the college, though I am working on migrating it to the university's GitHub.com organizations and made public (where possible), which is why I've spun up this page/repo, and I'll try to keep it updated with the current locations of my projects.  
 
-In the table below, a visibility of `Private` means the code is hosted on Engineering IT's "internal" GitLab service and is only accessible to those specifically granted access. `Public` means the code is accessible to the whole internet. 'Internal' means the code is accessible to any member of any organization belonging to University of Illinois' enterprise-wide GitHub license (i.e. basically any university affiliate).  
+In the table below, a visibility of `Private` means the code is hosted on Engineering IT's "internal" GitLab service and is only accessible to those specifically granted access. `Public` means the code is accessible to the whole internet. `University` means the code is accessible to any member of any organization belonging to University of Illinois' enterprise-wide GitHub license (i.e. basically any university affiliate).  
 
 If you are interested in getting access to a project which is still private, please contact me per the above. For projects hosted on gitlab.engr-illinois.edu, you must sign in there at least once, so that your account will be generated and can be granted access.  
 
@@ -18,7 +18,7 @@ If you are interested in getting access to a project which is still private, ple
 
  | Name and link | Description | Type | Language | Visibility | 
  | ------------- | ----------- | ---- | -------- | ---------- | 
- | [Recycle-EWSGuestAccounts](https://github.com/engrit-illinois/Recycle-EWSGuestAccounts) | Bulk provisioning and decommissioning of guest AD accounts | bulk manipulation, scripting of repetitive processes | Powershell | Internal | 
+ | [Recycle-EWSGuestAccounts](https://github.com/engrit-illinois/Recycle-EWSGuestAccounts) | Bulk provisioning and decommissioning of guest AD accounts | bulk manipulation, scripting of repetitive processes | Powershell | University | 
  | [create-role-based-ad-accounts-and-groups](https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/create-role-based-ad-accounts-and-groups) | Creation of role-based AD accounts and groups, i.e. for administrative use, research groups, and RSOs | bulk manipulation, scripting of repetitive processes | Powershell | Private | 
  | [Create-ICTDocClassAccounts](https://gitlab.engr.illinois.edu/oesr/official_engrit_script_repo/-/tree/master/Create-ICTDocClassAccounts) | Bulk creation of guest AD accounts, i.e. for a semesterly community class | Bulk manipulation, scripting of repetitive processes | Powershell | Private | 
  | [get-lens-info](https://gitlab.engr.illinois.edu/engrit-epm/sccm-ts-scripts/-/blob/master/get-lens-info.ps1) | Gathers data about the local endpoint's MAC from LENS data and saves it in MECM task sequence variables | info gathering/reporting | Powershell | Public | 
