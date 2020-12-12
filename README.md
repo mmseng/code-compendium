@@ -12,11 +12,11 @@ I don't claim that all of the code linked below is perfect; I am mostly self-tau
 Basically all of my Powershell code has been developed on v5.1. I currently have minimal experience with v6 and v7.  
 
 ## Access
-Currently much of my work is stored on version control systems internal to the college, though I am working on migrating it to the university's GitHub.com organizations and made public (where possible), which is why I've spun up this page/repo, and I'll try to keep it updated with the current locations of my projects.  
+Most of this work has been migrated from Engineering's GitLab instance to our GitHub.com university-licensed organization, and has been made public where it makes sense.
 
-In the table below, a visibility of `Private` means the code is hosted on Engineering IT's "internal" GitLab service and is only accessible to those specifically granted access. `Public` means the code is accessible to the whole internet. `University` means the code is accessible to any member of any organization belonging to University of Illinois' enterprise-wide GitHub license (i.e. basically any university affiliate).  
+In the table below, a visibility of `Public` means the code is accessible to the whole internet. `University` means the code is accessible to any member of any organization belonging to University of Illinois' enterprise-wide GitHub license (i.e. basically any university affiliate, this is the "Internal" repo visibility setting). `Private` means the code is still hosted on Engineering IT's GitLab service and is only accessible to those specifically granted access.  
 
-If you are interested in getting access to a project which is still private, please contact me per the above. For projects hosted on gitlab.engr-illinois.edu, you must sign in there at least once, so that your account will be generated and can be granted access.  
+If you are interested in getting access to a non-public project, please contact me per the above. For projects hosted on gitlab.engr.illinois.edu, you must sign in there at least once, so that your account will be generated and can be granted access.  
 
 ## Compendium
 
