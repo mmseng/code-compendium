@@ -14,7 +14,7 @@ Basically all of my Powershell code has been developed on v5.1. I currently have
 ## Access
 Most of this work has been migrated from Engineering's GitLab instance to our GitHub.com university-licensed organization, and has been made public where it makes sense.
 
-In the table below, a visibility of `Public` means the code is accessible to the whole internet. `University` means the code is accessible to any member of any organization belonging to University of Illinois' enterprise-wide GitHub license (i.e. basically any university affiliate, this is the "Internal" repo visibility setting). `Private` means the code is still hosted on Engineering IT's GitLab service and is only accessible to those specifically granted access.  
+In the table below, a visibility of `Public` means the code is accessible to the whole internet. `University` means the code is accessible to any member of any organization belonging to University of Illinois' enterprise-wide GitHub license (i.e. basically any university affiliate, this visiblity is called "Internal" in GitHub.com enterprise parlance). `Private` means the code is still hosted on Engineering IT's GitLab service and is only accessible to those specifically granted access.  
 
 If you are interested in getting access to a non-public project, please contact me per the above. For projects hosted on gitlab.engr.illinois.edu, you must sign in there at least once, so that your account will be generated and can be granted access.  
 
