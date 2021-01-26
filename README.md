@@ -22,6 +22,7 @@ If you are interested in getting access to a non-public project, please contact 
 
  | Name and link | Description | Type | Language | Visibility | 
  | ------------- | ----------- | ---- | -------- | ---------- | 
+ | [Get-ClassSize](https://github.com/engrit-illinois/Get-ClassSize) | This is a handy Powershell module for querying the size of a given UIUC Engineering class. | info gathering/reporting | Powershell | University | 
  | [Recycle-EWSGuestAccounts](https://github.com/engrit-illinois/Recycle-EWSGuestAccounts) | Bulk provisioning and decommissioning of guest AD accounts | bulk manipulation, scripting of repetitive processes | Powershell | University | 
  | [Refresh-EWSRDUGroups](https://github.com/engrit-illinois/Refresh-EWSRDUGroups) | Bulk provisioning and decommissioning of AD security groups used to control remote access to EWS labs | bulk manipulation, scripting of repetitive processes | Powershell | University | 
  | [create-role-based-ad-accounts-and-groups](https://github.com/engrit-illinois/create-role-based-ad-accounts-and-groups) | Creation of role-based AD accounts and groups, i.e. for administrative use, research groups, and RSOs | bulk manipulation, scripting of repetitive processes | Powershell | University | 
