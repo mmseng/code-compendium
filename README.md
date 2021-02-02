@@ -19,6 +19,9 @@ In the table below, a visibility of `Public` means the code is accessible to the
 If you are interested in getting access to a non-public project, please contact me per the above. For projects hosted on gitlab.engr.illinois.edu, you must have a University NetID and sign in there at least once, so that your account will be generated and can be granted access.  
 
 ## Compendium
+<!-- Table row template
+ | [ScriptName](https://github.com/engrit-illinois/ScriptName) | Summary of script | categories | Language | Visibility | 
+-->
 
  | Name and link | Description | Type | Language | Visibility | 
  | ------------- | ----------- | ---- | -------- | ---------- | 
