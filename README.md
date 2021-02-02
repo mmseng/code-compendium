@@ -20,7 +20,7 @@ If you are interested in getting access to a non-public project, please contact 
 
 ## Compendium
 <!-- Table row template
- | [ScriptName](https://github.com/engrit-illinois/ScriptName) | Summary of script | categories | Language | Visibility | 
+ | [ScriptName](https://github.com/engrit-illinois/ScriptName) | Summary of script | type | Language | Visibility | 
 -->
 
  | Name and link | Description | Type | Language | Visibility | 
