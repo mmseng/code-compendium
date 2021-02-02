@@ -22,7 +22,8 @@ If you are interested in getting access to a non-public project, please contact 
 
  | Name and link | Description | Type | Language | Visibility | 
  | ------------- | ----------- | ---- | -------- | ---------- | 
- | [Get-ClassSize](https://github.com/engrit-illinois/Get-ClassSize) | This is a handy Powershell module for querying the size of a given UIUC Engineering class. | info gathering/reporting | Powershell | University | 
+ | [Get-ClassSize](https://github.com/engrit-illinois/Get-ClassSize) | Returns information about the number of users with the Remote Desktop permission for a given Engineering Instructional lab. | info gathering/reporting | Powershell | University | 
+ | [Get-LabRDUCount](https://github.com/engrit-illinois/Get-LabRDUCount) | This is a handy Powershell module for querying the size of a given UIUC Engineering class. | info gathering/reporting | Powershell | University | 
  | [Recycle-EWSGuestAccounts](https://github.com/engrit-illinois/Recycle-EWSGuestAccounts) | Bulk provisioning and decommissioning of guest AD accounts | bulk manipulation, scripting of repetitive processes | Powershell | University | 
  | [Refresh-EWSRDUGroups](https://github.com/engrit-illinois/Refresh-EWSRDUGroups) | Bulk provisioning and decommissioning of AD security groups used to control remote access to EWS labs | bulk manipulation, scripting of repetitive processes | Powershell | University | 
  | [create-role-based-ad-accounts-and-groups](https://github.com/engrit-illinois/create-role-based-ad-accounts-and-groups) | Creation of role-based AD accounts and groups, i.e. for administrative use, research groups, and RSOs | bulk manipulation, scripting of repetitive processes | Powershell | University | 
@@ -34,6 +35,8 @@ If you are interested in getting access to a non-public project, please contact 
  | [Get-ComputersBySessionState](https://github.com/engrit-illinois/Get-ComputersBySessionState) | Gets a list of computers which have sessions matching given criteria | info gathering/reporting | Powershell | Public | 
  | [Get-Model](https://github.com/engrit-illinois/Get-Model) | Gets model and other info (WMI Win32_ComputerSystem class) from remote endpoints | info gathering/reporting | Powershell | Public | 
  | [Get-DiskSpace](https://github.com/engrit-illinois/Get-DiskSpace) | Gets available and free disk space from remote endpoints, caluclates free space %, and highlights endpoints with low free space | info gathering/reporting | Powershell | Public | 
+ | [Get-LocalUserProfiles](https://github.com/engrit-illinois/Get-LocalUserProfiles) | Pulls information about local user profiles from a given array of computers. | auditing, info gathering/reporting | Powershell | Public | 
+ | [Remove-LocalUserProfiles](https://github.com/engrit-illinois/Remove-LocalUserProfiles) | Removes local user profiles from a given array of remote computers. | bulk manipulation, scripting of repetitive processes | Powershell | Public | 
  | [Get-UptimeHistory](https://github.com/engrit-illinois/Get-UptimeHistory) | Retrieves precise uptime history from a remote endpoint | info gathering/reporting | Powershell | Public | 
  | [Get-FormFactors](https://github.com/engrit-illinois/Get-FormFactors) | Gets form factor and other info (WMI Win32_SystemEnclosure and Win32_ComputerSystem classes) from remote endpoints | info gathering/reporting | Powershell | Public | 
  | [misc-handy-powershell-examples](https://github.com/engrit-illinois/misc-handy-powershell-examples) | Long list of misc syntax, cmdlets, and snippets I've found handy over the years | misc | Powershell | Public | 
