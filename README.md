@@ -18,8 +18,9 @@ In the table below, a visibility of `Public` means the code is accessible to the
 
 Note:
 - For projects hosted on GitHub with a visibility of "University" (a.k.a. "Internal"), you'll need to authenticate your GitHub account via the university SSO, by browsing here: https://github.com/orgs/engrit-illinois/sso.
-- For projects hosted on gitlab.engr.illinois.edu, you must have a University NetID and sign in there at least once, so that your account will be generated and can be granted access.
 - If you are interested in getting access to a non-public project, please contact me per the above.
+- For non-public projects hosted on GitLab, you must have a University NetID and sign in at https://gitlab.engr.illinois.edu at least once, so that your account will be generated and can be granted access.
+
 
 ## Compendium
 <!-- Table row template
