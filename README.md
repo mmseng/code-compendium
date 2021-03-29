@@ -40,6 +40,7 @@ Note:
  | [post-to-slack](https://gitlab.engr.illinois.edu/engrit-epm/sccm-ts-scripts/-/blob/master/post-to-slack.ps1) | Sends a message to a Slack channel | info gathering/reporting | Powershell | Public | 
  | [post-to-teams](https://gitlab.engr.illinois.edu/engrit-epm/sccm-ts-scripts/-/blob/master/post-to-teams.ps1) | Sends a message to a MS Teams channel | info gathering/reporting | Powershell | Public | 
  | [Get-Sessions](https://github.com/engrit-illinois/Get-Sessions) | Gets session data from remote endpoints, and returns it in a proper Powershell object | info gathering/reporting | Powershell | Public | 
+ | [Get-LensInfo](https://github.com/engrit-illinois/Get-LensInfo) | Retrieves networking info about a given AD computer from the Lens API, and returns it in a proper Powershell object. | info gathering/reporting | Powershell | University |
  | [Get-ComputersBySessionState](https://github.com/engrit-illinois/Get-ComputersBySessionState) | Gets a list of computers which have sessions matching given criteria | info gathering/reporting | Powershell | Public | 
  | [Get-Model](https://github.com/engrit-illinois/Get-Model) | Gets model and other info (WMI Win32_ComputerSystem class) from remote endpoints | info gathering/reporting | Powershell | Public | 
  | [Get-DiskSpace](https://github.com/engrit-illinois/Get-DiskSpace) | Gets available and free disk space from remote endpoints, caluclates free space %, and highlights endpoints with low free space | info gathering/reporting | Powershell | Public | 
