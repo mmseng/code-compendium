@@ -29,6 +29,7 @@ Note:
 
  | Name and link | Description | Type | Language | Visibility | 
  | ------------- | ----------- | ---- | -------- | ---------- | 
+ | [how-to-run-custom-powershell-modules-as-another-user](https://github.com/engrit-illinois/how-to-run-custom-powershell-modules-as-another-user) | Instructions referenced by several of my custom modules listed below | informational | English, Powershell | University | 
  | [Get-ClassSize](https://github.com/engrit-illinois/Get-ClassSize) | Returns information about the number of users with the Remote Desktop permission for a given Engineering Instructional lab. | info gathering/reporting | Powershell | University | 
  | [Get-LabRDUCount](https://github.com/engrit-illinois/Get-LabRDUCount) | This is a handy Powershell module for querying the size of a given UIUC Engineering class. | info gathering/reporting | Powershell | University | 
  | [Recycle-EWSGuestAccounts](https://github.com/engrit-illinois/Recycle-EWSGuestAccounts) | Bulk provisioning and decommissioning of guest AD accounts | bulk manipulation, scripting of repetitive processes | Powershell | University | 
