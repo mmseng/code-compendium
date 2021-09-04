@@ -9,7 +9,7 @@ If you wish to contact me about my work, please use the University's Microsoft T
 
 I don't claim that all of the code linked below is perfect; I am mostly self-taught when it comes to Powershell. That being said, I generally try to use the best practices developed through my CS, IT, and security-conscious background. However I'm equally as happy to receive feedback and pointers about my code as I am to receive questions and share my experience. In general the code below is provided mostly as reference material for other IT pros looking for examples and inspiration.  
 
-Basically all of my Powershell code has been developed on v5.1. I currently have minimal experience with v6 and v7.  
+The majority of my Powershell code has been developed on v5.1, and most has not been tested on v6 nor v7. However I am using v7 by default now, and try to update or notate code which has issues on versions later than v5.1.  
 
 ## Access
 Most of this work has been migrated from Engineering's GitLab instance to our GitHub.com university-licensed organization, and has been made public where it makes sense.
