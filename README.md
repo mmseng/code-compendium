@@ -3,7 +3,7 @@
 ## Me and my code
 I've been an IT pro for higher education since 2007. This is an index of some projects I've done, mostly Powershell-based, which I felt are worth sharing for other IT pros.  
 
-The majority of my scripting work is done for the purposes of system administration and enpoint management for Engineering IT Shared Services, in the Grainger College of Engineering at the University of Illinois. It focuses on AD, MECM, data gathering and reporting, bulk manipulation, automation of repetitive processes, standardization auditing, and process improvement, with a few custom webtools and integrations thrown in. My GitHub.com username is mmseng, but most of my work is hosted under Engineering IT's university-licensed GitHub.com organization, and attributed to my NetID (mseng3).  
+The majority of my scripting work is done for the purposes of system administration and endpoint management for Engineering IT Shared Services, in the Grainger College of Engineering at the University of Illinois. It focuses on AD, MECM, data gathering and reporting, bulk manipulation, automation of repetitive processes, standardization auditing, and process improvement, with a few custom webtools and integrations thrown in. My GitHub.com username is mmseng, but most of my work is hosted under Engineering IT's university-licensed GitHub.com organization, and attributed to my NetID (mseng3).  
 
 If you wish to contact me about my work, please use the University's Microsoft Teams system to do so, either directly or through the PowerShell User Group team. If you can't, then my university email will suffice. For now, I will not closely monitor communications here on GitHub.  
 
