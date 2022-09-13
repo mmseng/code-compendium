@@ -49,6 +49,8 @@ Note:
  | [Remove-LocalUserProfiles](https://github.com/engrit-illinois/Remove-LocalUserProfiles) | Removes local user profiles from a given array of remote computers. | bulk manipulation, scripting of repetitive processes | Powershell | Public | 
  | [Get-UptimeHistory](https://github.com/engrit-illinois/Get-UptimeHistory) | Retrieves precise uptime history from a remote endpoint | data gathering/reporting | Powershell | Public | 
  | [Get-FormFactors](https://github.com/engrit-illinois/Get-FormFactors) | Gets form factor and other info (WMI Win32_SystemEnclosure and Win32_ComputerSystem classes) from remote endpoints | data gathering/reporting | Powershell | Public | 
+ | [win7-esu-mecm-baseline](https://github.com/engrit-illinois/win7-esu-mecm-baseline) | About
+A script to be used as a configuration item for a MECM baseline which detects systems with valid Win7 ESUs | data gathering/reporting | Powershell | Public | 
  | [Get-OuLoginMessage](https://github.com/engrit-illinois/Get-OuLoginMessage) | Polls computers in an OU and returns whether they have a login message configured locally. | data gathering/reporting | Powershell | Private | 
  | [misc-handy-powershell-examples](https://github.com/engrit-illinois/misc-handy-powershell-examples) | Long list of misc syntax, cmdlets, and snippets I've found handy over the years | misc | Powershell | Public | 
  | [handy-log-functions](https://github.com/engrit-illinois/handy-log-functions) | Some handy, feature-rich log functions for use in PowerShell modules. | utility | Powershell | Public | 
