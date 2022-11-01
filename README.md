@@ -93,6 +93,7 @@ Note:
  | [PrinterStatus](https://helptools.engrit.illinois.edu/tools/printerstatus/) | One-stop-shop web-based status monitoring (leveraging the SNMP protocol) for all of the college's printers | webtool, data gathering/reporting, workflow | PHP, Powershell | Private | 
  | PWResetV2 | Resetting of administrator account passwords as securely as possible without leveraging something like LAPS. Contact for more information. | scripting of repetitive processes | Powershell | Private | 
  | [Helptools Importer](https://gitlab.engr.illinois.edu/engrit-epm/helptools-importer) | Web-based tool (leveraging Jenkins) for automation of importing new computer information to AD, MECM, and IPAM | webtool, automation, workflow | Powershell, Jenkins, CSS, Groovy | Private | 
+ | [excel-notes](https://github.com/engrit-illinois/excel-notes) | Just a repository for some handy excel tricks, mostly related to data munging. | data gathering/reporting | Excel | Public | 
 
 ## Generalized topics which I have at least some experience with, but which don't represent specific code projects
 - Misc gathering, reporting, and manipulation of AD, MECM, LENS, and IPAM data
