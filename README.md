@@ -27,6 +27,7 @@ Note:
 
  | Name and link | Description | Type | Language | Visibility | 
  | ------------- | ----------- | ---- | -------- | ---------- | 
+ | [how-to-install-a-custom-powershell-module](https://github.com/engrit-illinois/how-to-install-a-custom-powershell-module) | Brief instructions on installing a custom powershell module | informational | English, Powershell | Public | 
  | [how-to-run-custom-powershell-modules-as-another-user](https://github.com/engrit-illinois/how-to-run-custom-powershell-modules-as-another-user) | Instructions referenced by several of my custom modules listed below | informational | English, Powershell | University | 
  | [Get-ClassSize](https://github.com/engrit-illinois/Get-ClassSize) | Returns information about the number of users with the Remote Desktop permission for a given Engineering Instructional lab. | data gathering/reporting | Powershell | University | 
  | [Get-LabRDUCount](https://github.com/engrit-illinois/Get-LabRDUCount) | This is a handy Powershell module for querying the size of a given UIUC Engineering class. | data gathering/reporting | Powershell | University | 
