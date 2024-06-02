@@ -18,7 +18,7 @@ That being said, I generally try to use the best practices developed through my 
 
 The majority of my Powershell code has been developed on v5.1, and has not necessarily been tested on v6 nor v7. However I am using v7 by default now, and try to update or notate code which has issues on versions later than v5.1.  
 
-## Access
+### Access
 Most of this work has been migrated from my organization's GitLab instance to our GitHub.com university-licensed organization, and has been made public where it makes sense.
 
 In the table below, a visibility of `Public` means the code is accessible to the whole internet. `University` means the code is accessible to any member of any organization belonging to University of Illinois' enterprise-wide GitHub license (i.e. basically any university affiliate, this visiblity is called "Internal" in GitHub.com enterprise parlance). `Private` means the code is still hosted on Engineering IT's GitLab service and/or is only accessible to those specifically granted access.  
@@ -27,7 +27,7 @@ Note:
 - For projects hosted on GitHub with a visibility of "University" (a.k.a. "Internal"), you'll need to authenticate your GitHub account via the university SSO, by browsing here: https://github.com/orgs/engrit-illinois/sso.
 - If you are interested in getting access to a non-public project, please contact me per the above.
 
-## Compendium
+### Compendium
 <!-- Table row template
  | [ScriptName](https://github.com/engrit-illinois/ScriptName) | Summary of script | type | Language | Visibility | 
 -->
