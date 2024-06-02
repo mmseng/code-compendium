@@ -1,18 +1,25 @@
 # Matt's code compendium
 
-## Me and my code
-I've been an IT pro for higher education since 2007. This is an index of some projects I've done, mostly Powershell-based, which I felt are worth sharing for other IT pros.  
+### Me and my code
+I've been an IT pro for higher education since 2007 and a gamer since 1990. This is an index of some projects I've done, mostly Powershell-based, which I felt are worth sharing.  
 
 The majority of my scripting work is done for the purposes of system administration and endpoint management for Engineering IT Shared Services, in the Grainger College of Engineering at the University of Illinois. It focuses on AD, MECM, data gathering and reporting, bulk manipulation, automation of repetitive processes, standardization auditing, and process improvement, with a few custom webtools and integrations thrown in. My GitHub.com username is mmseng, but most of my work is hosted under Engineering IT's university-licensed GitHub.com organization, and attributed to my NetID (mseng3).  
 
-If you wish to contact me about my work, please use the University's Microsoft Teams system to do so, either directly or through the PowerShell User Group team. If you can't, then my university email will suffice. For now, I will not closely monitor communications here on GitHub.  
+I also occasionally dabble in various tools and modding for games I play. This page is dedicated for listing the projects related to my professional career. For a compendium of personal/gaming projects, see [code-compendium-personal](https://github.com/mmseng/code-compendium-personal).  
 
-I don't claim that all of the code linked below is perfect; I am mostly self-taught when it comes to Powershell. That being said, I generally try to use the best practices developed through my CS, IT, and security-conscious background. However I'm equally as happy to receive feedback and pointers about my code as I am to receive questions and share my experience. In general the code below is provided mostly as reference material for other IT pros looking for examples and inspiration.  
+### Contact
+If you wish to contact me about my professional work, and GitHub methods are insufficient, then please use the University's Microsoft Teams or system to do so, either directly or through the PowerShell User Group team. If you can't, then my university email will suffice.  
 
-The majority of my Powershell code has been developed on v5.1, and most has not been tested on v6 nor v7. However I am using v7 by default now, and try to update or notate code which has issues on versions later than v5.1.  
+### Disclaimer
+
+I don't claim that all of the code linked below is perfect; I am mostly self-taught when it comes to Powershell, and I frequently focus on making things that are immediately useful for case-by-case situations, rather than building a proper PowerShell module ecosystem. In general, the code below is provided mostly as reference material for other IT pros looking for examples of how to interface with various systems, achieve various goals, and for general inspiration.  
+
+That being said, I generally try to use the best practices developed through my CS, IT, and security-conscious background. However I'm equally as happy to receive feedback and pointers about my code as I am to receive questions and share my experience. 
+
+The majority of my Powershell code has been developed on v5.1, and has not necessarily been tested on v6 nor v7. However I am using v7 by default now, and try to update or notate code which has issues on versions later than v5.1.  
 
 ## Access
-Most of this work has been migrated from Engineering's GitLab instance to our GitHub.com university-licensed organization, and has been made public where it makes sense.
+Most of this work has been migrated from my organization's GitLab instance to our GitHub.com university-licensed organization, and has been made public where it makes sense.
 
 In the table below, a visibility of `Public` means the code is accessible to the whole internet. `University` means the code is accessible to any member of any organization belonging to University of Illinois' enterprise-wide GitHub license (i.e. basically any university affiliate, this visiblity is called "Internal" in GitHub.com enterprise parlance). `Private` means the code is still hosted on Engineering IT's GitLab service and/or is only accessible to those specifically granted access.  
 
