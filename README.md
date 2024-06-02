@@ -116,7 +116,7 @@ Note:
  | [Helptools Importer](https://gitlab.engr.illinois.edu/engrit-epm/helptools-importer) | Web-based tool (leveraging Jenkins) for automation of importing new computer information to AD, MECM, and IPAM | webtool, automation, workflow | Powershell, Jenkins, CSS, Groovy | Private | 
  | [excel-notes](https://github.com/engrit-illinois/excel-notes) | Just a repository for some handy excel tricks, mostly related to data munging. | data gathering/reporting | Excel | Public | 
 
-## Generalized topics which I have at least some experience with, but which don't represent specific code projects
+### Generalized topics which I have at least some experience with, but which don't represent specific code projects
 - Misc gathering, reporting, and manipulation of AD, MECM, LENS, and IPAM data
 - Using custom GUI input prompts and logic at the beginning of an MECM task sequence
 - Kicking off custom scripts after an MECM task sequence has finished and rebooted, to do things that cannot be done during a TS (such as running Windows updates)
@@ -125,5 +125,5 @@ Note:
 - Customization of Powershell profile, with automatic import of various modules, such as those mentioned above
 - General practice of thorough process logging for scripts for easy troubleshooting and review
 
-## Notes
+### Notes
 - By mseng3
