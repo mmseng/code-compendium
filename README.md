@@ -3,7 +3,7 @@
 ### Me and my code
 I've been an IT pro for higher education since 2007 and a gamer since 1990. This is an index of some projects I've done, mostly PowerShell-based, which I felt are worth sharing.  
 
-The majority of my scripting work is done for the purposes of system administration and endpoint management for Engineering IT Shared Services, in the Grainger College of Engineering at the University of Illinois. It focuses on AD, MECM, data gathering and reporting, bulk manipulation, automation of repetitive processes, standardization auditing, and process improvement, with a few custom webtools and integrations thrown in. My GitHub.com username is mmseng, but most of my work is hosted under Engineering IT's university-licensed GitHub.com organization, and attributed to my NetID (mseng3).  
+The majority of my scripting work is done for the purposes of system administration and endpoint management for Engineering IT Shared Services, in the Grainger College of Engineering at the University of Illinois. It focuses on Windows, AD, MECM, interfacing with APIs, data gathering and reporting, bulk manipulation, automation of repetitive processes, standardization auditing, and process improvement, with a few custom webtools and integrations thrown in. My GitHub.com username is mmseng, but most of my work is hosted under Engineering IT's university-licensed GitHub.com organization, and attributed to my NetID (mseng3).  
 
 I also occasionally dabble in various tools and modding for games I play. This page is dedicated for listing the projects related to my professional career. For a compendium of personal/gaming projects, see [code-compendium-personal](https://github.com/mmseng/code-compendium-personal).  
 
@@ -16,7 +16,7 @@ I don't claim that all of the code linked below is perfect; I am mostly self-tau
 
 That being said, I generally try to use the best practices developed through my CS, IT, and security-conscious background. However I'm equally as happy to receive feedback and pointers about my code as I am to receive questions and share my experience. 
 
-The majority of my PowerShell code has been developed on v5.1, and has not necessarily been tested on v6 nor v7. However I am using v7 by default now, and try to update or notate code which has issues on versions later than v5.1.  
+A large chunk of my PowerShell code was developed on Windows PowerShell v5.1, and has not necessarily been tested on PowerShell v6 nor v7. However I am using v7 by default now, and try to update or notate code which has version dependencies when I become aware of them.  
 
 ### Access
 Most of this work has been migrated from my organization's GitLab instance to our GitHub.com university-licensed organization, and has been made public where it makes sense.
