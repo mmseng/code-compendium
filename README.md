@@ -126,6 +126,7 @@ Note:
 - Using custom GUI input prompts and logic at the beginning of an MECM task sequence
 - Kicking off custom scripts after an MECM task sequence has finished and rebooted, to do things that cannot be done during a TS (such as running Windows updates)
 - Automation of AMT commands to endpoints via Intel's IntelvPro PowerShell module
+- Automation of BIOS settings configuration on Dell and Lenovo computers
 - Quick functions for various handy, quick and dirty administrative tasks
 - Customization of PowerShell profile, with automatic import of various modules, such as those mentioned above
 - General practice of thorough process logging for scripts for easy troubleshooting and review
